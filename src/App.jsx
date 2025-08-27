@@ -69,13 +69,13 @@ const App = () => {
             className="pointer-events-none fixed top-0 left-0 w-full h-full z-50"
             style={{ mixBlendMode: "difference" }}
           >
-            {/* Vertical Line */}
+            {/* Vertical Lines */}
             <div
               className="absolute top-0 h-full w-[0.5px] bg-gray-800"
               style={{ left: `${cursorPos.x}px` }}
             ></div>
 
-            {/* Horizontal Line */}
+            {/* Horizontal Lines */}
             <div
               className="absolute left-0 w-full h-[0.5px] bg-gray-800"
               style={{ top: `${cursorPos.y}px` }}
